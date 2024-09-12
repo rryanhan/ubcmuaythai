@@ -1,0 +1,55 @@
+.mmhc-main{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.mmhc-title{
+    font-family: Montagu Slab;
+    font-weight: 700;
+    font-size: 3.5vw;
+    color: #FFB000;
+}
+.mmhc-album img{
+    width: 22vw;
+
+}
+.mmhc-album video{
+    width: 21vw;
+
+}
+.mmhc-album{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 1%;
+    align-items: center;
+    overflow: auto;
+}
+
+@media screen and (max-width: 550px){
+    .mmhc-main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .mmhc-title{
+        font-size: 5.5vw;
+    }
+    .mmhc-album img{
+        width: 44vw;
+        height: 55vw;
+    }
+    .mmhc-album video{
+        width: 42vw;
+        height: 50vw;
+    }
+    .mmhc-album{
+        margin-top: 3%;
+        display: grid;
+        grid-template-columns: repeat(2, auto); 
+        grid-gap: 0.5%;
+        overflow: auto;
+        
+        
+    }
+
+}

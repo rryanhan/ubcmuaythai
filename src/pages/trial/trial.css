@@ -1,0 +1,154 @@
+.trial-main{
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.trial-title{
+    font-family: Montagu Slab;
+    font-weight: 700;
+    font-size: 3.5vw;
+    color: #FFB000;
+}
+
+label{
+color: #000;
+font-family: Montserrat;
+font-size: 1.5vw;
+font-style: normal;
+font-weight: 400;
+}
+
+.warning {
+color: #000;
+font-family: Montserrat;
+font-size: 2.5vw;
+font-style: normal;
+font-weight: 400;
+text-align: center;
+margin-top: 2%;
+}
+
+.waiver-ubc{
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.warningtwo {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 2.25vw;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1%;
+    }
+
+
+.textbox{
+    display: flex;
+    flex-direction: column; /* Change from 'row' to 'column' */
+    align-items: center; /* Center vertically */
+}
+
+
+
+text{
+    color: #000;
+font-family: Montserrat;
+font-size: 1.0vw;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 2%;
+}
+
+form{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius:10px;
+    max-width: 600px;
+    margin-left: -15%;
+}
+
+.formtext{
+    font-family: Montserrat;
+    font-size: 1.5vw;
+    color:black;
+}
+
+form input{
+    font-family: Montserrat;
+    font-size: 1.5vw;
+    color:black;
+    margin-bottom: 2.5%;
+    width: 120%;
+}
+
+form textarea{
+    font-family: Montserrat;
+    font-size: 1.5vw;
+    color:black;
+    margin-bottom: 5%;
+    width: 120%;
+
+}
+
+.button{
+    font-family: Montserrat;
+    font-size: 1.5vw;
+    color:black;
+    background: rgba(255, 176, 0, 0.50);
+    border-radius: 30px;
+    cursor: pointer;
+    height: 3vw;
+    
+    
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .trial-main{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .trial-title{
+        font-size: 5.5vw;
+    }
+    .warning{
+        font-size: 4vw;
+    }
+    .warningtwo{
+        font-size: 3.75vw;
+    }
+    label{
+        font-size: 2.0vw;
+    }
+    text{
+        font-size: 1.25vw;
+    }
+
+    .button{
+        font-size: 2.5vw;
+        height: 5vw;
+    }
+    form input{
+        font-size: 2.0vw;
+    }
+    form textarea{
+        font-size: 2vw;
+    }
+    .formtext{
+        font-size: 2.5vw;
+    }
+
+
+
+}
+
+
+
+  

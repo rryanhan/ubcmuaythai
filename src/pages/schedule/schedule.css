@@ -1,0 +1,113 @@
+.schedule-main{
+    margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+.membership-title{
+    font-family: Montagu Slab;
+    font-weight: 700;
+    font-size: 3.5vw;
+    color: #FFB000;
+}
+.schedule-title{
+    font-family: Montagu Slab;
+    font-weight: 700;
+    font-size: 3.5vw;
+    color: #FFB000;
+    margin-top: 5%;
+    text-align: left;
+}
+
+.membership-desc{
+    
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167%;    
+}
+
+.ubc-students{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.ubc-students-title{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.nonubc-students-title{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 3.0vw;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.monthly{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.returning-members{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.8vw;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.scheduleimg{
+    font-family: Montserrat;
+}
+.scheduleimg img {
+    
+    max-width: 65vw;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+
+@media screen and (max-width: 550px) {
+    .schedule-main{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .nonubc-students-title{
+        font-size: 3.5vw;
+    }
+    .membership-title, .schedule-title{
+        font-size: 5.5vw;
+    }
+    .membership-desc{
+        font-size: 2.25vw;
+    }
+    .ubc-students-title{
+        font-size: 4.75vw;
+    }
+    .nonubc-students-title{
+        font-size: 3.5vw;
+    }
+    .monthly{
+        font-size: 3.25vw;
+    }
+    .returning-members{
+        font-size: 2.25vw;
+    }
+    .scheduleimg img{
+        max-width: 65vw;
+    }
+}

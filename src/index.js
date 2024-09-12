@@ -1,17 +1,82 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+import App from './App';
+import Guide from './pages/guide/Guide'
+import Schedule from './pages/schedule/Schedule'
+import Trial from './pages/trial/Trial'
+import Join from './pages/join/Join'
+import Faq from './pages/faq/Faq'
+import Media from './pages/media/Media'
+import Bestofnest from './pages/media/events/bestofnest/Bestofnest'
+import Mmhc from './pages/media/events/mmhc/Mmhc'
+import Aiyara from './pages/media/events/aiyara/Aiyara'
+import Firstweek from './pages/media/events/firstweek/Firstweek'
+
+import './index.css';
+
+import {
+    createBrowserRouter,
+    RouterProvider,
+    Route,
+  } from "react-router-dom";
+
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <App/>,
+    },
+    {
+        path: "/Muaythai-Guide",
+        element: <Guide/>,
+    },
+
+    {
+      path:"/Schedule-and-Fees",
+      element: <Schedule/>,
+    },
+
+    {
+      path:"/Free-Trial",
+      element: <Trial/>,
+    },
+
+    {
+      path:"/Join-Us",
+      element: <Join/>,
+    },
+    {
+      path:"/Faq",
+      element: <Faq/>,
+    },
+    {
+      path: "/Media",
+      element: <Media/>
+    },
+    {
+      path:"/Best-of-the-Nest",
+      element: <Bestofnest/>
+    },
+    {
+      path:"/Mens-Mental-Health-Collab",
+      element: <Mmhc/>
+    },
+    {
+      path:"/Thai-Aiyara-Collab",
+      element: <Aiyara/>
+    },
+
+    {
+      path:"/Firstweek",
+      element: <Firstweek/>
+    }
+
+  ]);
+  
+  ReactDOM.createRoot(document.getElementById("root")).render(
+    <RouterProvider router={router} />
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ 
+
+

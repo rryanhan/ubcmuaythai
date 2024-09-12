@@ -1,0 +1,89 @@
+.footer-main{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+
+.center-image{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer-border{
+    border: 0.5px solid black;
+    margin-bottom: 5%;
+}
+
+.footer-contact{
+    font-family: Montagu Slab;
+    font-weight: 700;
+    font-size: 3.5vw;
+    color: #FFB000;
+}
+
+.mail{
+    display: flex;
+    flex-direction: row;
+   align-items:center;
+}
+
+.insta{
+    display: flex;
+   align-items:center;
+   margin-top: 5%;
+}
+
+.mailhandle, .instahandle{
+    font-size: 2.5vw;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-left: 0%;
+    margin-left: 5px;
+}
+
+.mailimg, .instaimg{
+    max-height: 2.5vw;
+}
+
+.headband img{
+    max-width: 10vw;
+}
+.links{
+    margin-top: 1%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 550px){
+    .footer-main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .footer-contact{
+        font-size: 5.5vw;
+    }
+    .faq{
+        font-size: 3.5vw;
+    }
+    .mailimg, .instaimg{
+        max-height: 3.25vw;
+    }
+    .mailhandle, .instahandle{
+        font-size: 3.25vw;
+        margin-left: 3px;
+    }
+    .headband img{
+        max-width: 15vw;
+    }
+    
+
+
+}

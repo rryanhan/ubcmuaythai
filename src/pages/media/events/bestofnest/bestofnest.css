@@ -1,0 +1,49 @@
+.bestofnest-main{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.bestofnest-title{
+    font-family: Montagu Slab;
+    font-weight: 700;
+    font-size: 3.5vw;
+    color: #FFB000;
+}
+.bestofnest-album img{
+    width: 22vw;
+}
+.bestofnest-album video{
+    width: 21vw;
+}
+.bestofnest-album{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 3%;
+    align-items: center;
+}
+@media screen and (max-width: 550px){
+    .bestofnest-main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .bestofnest-title{
+        font-size: 5.5vw;
+    }
+    .bestofnest-album img{
+        width: 44vw;
+    }
+    .bestofnest-album video{
+        width: 42vw;
+    }
+    .bestofnest-album{
+        margin-top: 3%;
+        display: grid;
+        grid-template-columns: repeat(2, auto); 
+        grid-gap: 3%;
+        overflow: auto;
+        
+        
+    }
+
+} 

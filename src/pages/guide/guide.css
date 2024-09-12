@@ -1,0 +1,63 @@
+.guide-main{
+margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+.guide-title{
+    font-family: Montagu Slab;
+    font-weight: 700;
+    font-size: 3.5vw;
+    color: #FFB000;
+}
+
+.links-title{
+    font-family: Montagu Slab;
+    font-weight: 700;
+    font-size: 3.5vw;
+    color: #FFB000;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.muaythai-video{
+    margin-top: 5%;
+    max-width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description{
+    margin-top:5%;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167%;
+}
+
+.guideimg img{
+    max-width: 50vw;
+    margin-top: 3%;
+}
+
+
+@media screen and (max-width: 550px) {
+    .guide-main{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .links-title, .guide-title{
+        font-size: 5.5vw;
+    }
+    .description{
+        font-size: 2.5vw;
+    }
+    .guideimg img{
+        max-width: 75%;
+    }
+}

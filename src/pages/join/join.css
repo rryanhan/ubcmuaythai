@@ -1,0 +1,131 @@
+.join-main{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.join-title{
+    font-family: Montagu Slab;
+    font-weight: 700;
+    font-size: 3.5vw;
+    color: #FFB000;
+}
+
+.steps{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.title{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 2.25vw;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+
+.body{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: 2.5vw;
+
+}
+
+.here{
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.transfer, .campusbase {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  
+  .transfer-rect {
+    width: 32vw;
+    height: 28vw;
+    flex-shrink: 0;
+    border-radius: 20vw;
+    background: rgba(255, 176, 0, 0.50);
+    
+  }
+
+  .line{
+    border: 1px solid black;
+    width: 27vw;
+    border-width: 0.5px;
+    margin-bottom: 7%;
+
+  }
+  
+  .text {
+    position: absolute;
+    top: 0;
+    color: #000; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 29.5vw;
+  }
+
+  @media screen and (max-width: 550px) {
+    .join-main{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .join-title{
+      font-size: 5.5vw;
+    }
+    .steps{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .transfer-rect {
+        width: 70vw;
+        height: 20vw;
+        flex-shrink: 0;
+        border-radius: 20vw;
+        background: rgba(255, 176, 0, 0.50);
+      }
+
+    .title{
+        width: 54vw;
+        margin-bottom: 5%;
+        font-size: 3vw;
+    }
+    .body{
+        width: 62vw;
+        font-size: 2vw;
+        font-size: 2.25vw;
+    }
+
+    .transfer{
+      margin-bottom: 5%;
+  }
+    .line{
+        border: 1px solid black;
+        width: 61vw;
+        border-width: 0.5px;
+        margin-bottom: 5%;
+      }
+}
+  
+  
+  
+

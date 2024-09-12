@@ -1,0 +1,55 @@
+.firstweek-main{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.firstweek-title{
+    font-family: Montagu Slab;
+    font-weight: 700;
+    font-size: 3.5vw;
+    color: #FFB000;
+}
+.firstweek-album img{
+    width: 22.5vw;
+    height: auto;
+}
+.firstweek-album video{
+    width: 21vw;
+    height: auto;
+}
+.firstweek-album{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 1%;
+    align-items: center;
+    overflow: auto;
+}
+
+@media screen and (max-width: 550px){
+    .firstweek-main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .firstweek-title{
+        font-size: 5.5vw;
+    }
+    .firstweek-album img{
+        width: 44vw;
+
+    }
+    .firstweek-album video{
+        width: 42vw;
+
+    }
+    .firstweek-album{
+        margin-top: 3%;
+        display: grid;
+        grid-template-columns: repeat(2, auto); 
+        grid-gap: 0.5%;
+        overflow: auto;
+        
+        
+    }
+
+}

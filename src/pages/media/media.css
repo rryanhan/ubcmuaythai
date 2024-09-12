@@ -1,0 +1,52 @@
+.media-main{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.media-title{
+    font-family: Montagu Slab;
+    font-weight: 700;
+    font-size: 3.5vw;
+    color: #FFB000;
+}
+
+.media-desc{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    width: 30vw;
+    line-height: 2.5vw;
+
+}
+.firsttwo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%; 
+}
+.best_nest_img, .mmhc_img, .aiyara_img, .firstweek_img{
+    max-width: 30vw;
+}
+.bestofnest, .mmhc{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 550px) {
+    .media-main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .media-title{
+        font-size: 5.5vw;
+    }
+    .media-desc{
+        font-size: 2.5vw;
+        width: 40vw;
+    }
+    .best_nest_img, .mmhc_img, .aiyara_img, .firstweek_img{
+        max-width: 40vw;
+    }
+}

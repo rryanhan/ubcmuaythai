@@ -1,0 +1,96 @@
+.team-main{
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+.meet-the-team{
+  font-family: Montagu Slab;
+    font-weight: 700;
+    font-size: 3.5vw;
+    color: #FFB000;
+    margin-top: 5%;
+    text-align: left;
+}
+
+.first3, .last3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  margin-top: 5%; 
+}
+.ryan, .leo, .alex, .erin, .michelle, .eddi{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ryan img, .leo img, .alex img, .michelle img, .erin img, .eddi img{
+  display: flex;
+  width: 100%;
+    height: auto;
+    max-width: 19vw;
+  }
+
+
+
+  .ryan-name, .leo-name, .alex-name, .michelle-name, .erin-name, .eddi-name{
+    font-family: Montserrat;
+    font-size: 2vw;
+    font-weight: 700;
+    text-align: center;
+  }
+  .ryan-description, .leo-description, .alex-description
+  , .michelle-description, .erin-description, .eddi-description{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.5vw;
+    text-align: center;
+  }
+  .ryan-about{
+    margin-top: 3%;
+    line-height: 150%;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 1.3vw;
+    text-align: center;
+    width: 18vw;
+
+  }
+
+
+
+  @media screen and (max-width: 550px){
+    .team-main{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .meet-the-team{
+      font-size: 5.5vw;
+    }
+    .leo img, .alex img, .ryan img, .michelle img, .eddi img, .erin img{
+      max-width: 25vw;
+    }
+    .ryan-name, .leo-name, .alex-name, .michelle-name, .erin-name, .eddi-name{
+font-size: 3vw;}
+
+
+    .ryan-description, .leo-description, .alex-description
+    , .michelle-description, .erin-description, .eddi-description{
+    font-size: 2.5vw;
+    }
+
+    .ryan-about{
+      font-size: 1.6vw;
+      width: 20vw;
+      text-align: center;
+    }
+    
+  
+
+
+
+
+  }
+
+  
