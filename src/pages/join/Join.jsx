@@ -16,9 +16,9 @@ const Join = () => {
             <div className='transfer'>
             <div className='transfer-rect'></div>
             <div className='text'>
-                <h1 className='title'>1. E-Transfer</h1>
+                <h1 className='title'>1. Bounce</h1>
                 <h1 className='line'></h1>   
-                <h1 className='body'>E-Transfer fee amount (refer to schedules & fees tab) to<a href="mailto:alexdtm01@gmail.com">  <u> alexdtm01@gmail.com</u></a>. Please include your full name, student number, your email, and “Muaythai club 23/24 T1.”</h1>
+                <h1 className='body'>Sign the waiver and request a membership from our Bounce <Link to= "https://www.bouncelife.com/events/66eaf14027015d576e826bcb/dashboard" target="_blank" className="here">here!</Link> </h1>
             </div>
             </div>
 
@@ -27,7 +27,7 @@ const Join = () => {
             <div className='text'>
                 <h1 className='title'>2. Campusbase</h1>
                 <h1 className='line'></h1> 
-                <h1 className='body'>Join our Campusbase <Link to= "https://amscampusbase.ubc.ca/muaythai/club_signup" target="_blank" className="here">here</Link> – you will be asked to read and sign a waiver. If you are a non-UBC member, simply sign this <Link to= "https://cglink.me/2fM/s49312" target="_blank" className="waiver-ubc">waiver</Link> That's it!.</h1>
+                <h1 className='body'>Wait for an approval message from one of our admins, and then submit your payment – once you've recieved a QR code, you're officially a member! That's it!.</h1>
             </div>
             </div>
 
