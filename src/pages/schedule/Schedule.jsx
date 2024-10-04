@@ -33,8 +33,8 @@ const Schedule = () => {
         <h1 className="schedule-title">WEEKLY SCHEDULE</h1>
         
          <div className="scheduleimg"> 
-         Sit tight – we are finalizing our weekly schedule for the 2024-2025 year :)!
-        {/*<img src={schedule} alt="schedule"/> */}   
+         
+        <img src={schedule} alt="schedule"/>    
         </div>
            
 

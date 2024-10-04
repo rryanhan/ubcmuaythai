@@ -34,7 +34,7 @@ const form = useRef();
 
       <div className='trial-main'>
         <h1 className='trial-title'>JOIN US FOR A FREE CLASS!</h1>
-        <h1 className="warning">Once we get our schedule finalized, you will be able to sign up for a free class – sorry for the inconvenience!</h1>
+        <h1 className="warning">Come in for a free trial class by filling in the Bounce form <Link to= "https://www.bouncelife.com/events/66ff2510637db1e42ec82574" target="_blank" className="here">here!</Link> Ensure you have your QR code ready when you come to class!</h1>
 
         {/* <h1 className="warning">Please fill out this <Link to= "https://cglink.me/2fM/s33390" target="_blank" className="waiver-ubc">waiver</Link> before registering!</h1>
         <h1 className="warningtwo">Or, this <Link to= "https://cglink.me/2fM/s49312" target="_blank" className="waiver-ubc">waiver</Link> if you are not affiliated with UBC </h1>
