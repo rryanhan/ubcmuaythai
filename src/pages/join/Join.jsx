@@ -18,7 +18,7 @@ const Join = () => {
             <div className='text'>
                 <h1 className='title'>1. Bounce</h1>
                 <h1 className='line'></h1>   
-                <h1 className='body'>Sign the waiver and request a membership from our Bounce <Link to= "https://www.bouncelife.com/events/66eaf14027015d576e826bcb/dashboard" target="_blank" className="here">here!</Link> </h1>
+                <h1 className='body'>Sign the waiver and request a membership from our Bounce <Link to= "https://www.bouncelife.com/events/68d881539f910ee56d63ec4c" target="_blank" className="here">here!</Link> </h1>
             </div>
             </div>
 

@@ -18,7 +18,6 @@ const Schedule = () => {
             </div>
             <div className="ubc-students-costs">
                 <h1 className="monthly">$50.00 CAD/term</h1>
-                <h1 className="returning-members">*45.00 CAD/term for returning members!</h1>
             </div>
         </div>
         <div className="ubc-students">
@@ -26,8 +25,7 @@ const Schedule = () => {
             <h1 className="nonubc-students-title">Non-UBC Students</h1>
             </div>
             <div className="ubc-students-costs">
-                <h1 className="monthly">$75.00 CAD/term</h1>
-                <h1 className="returning-members">*70.00 CAD/term for returning members!</h1>
+                <h1 className="monthly">$60.00 CAD/term</h1>
             </div>
         </div>
         <h1 className="schedule-title">WEEKLY SCHEDULE</h1>
